@@ -16,7 +16,7 @@ class TrianglePattern{
 }
 class TriangleMain{
       public static void main(String args[]){
-            /*
+            
             int p1=Integer.parseInt(args[0]);
             int p2=Integer.parseInt(args[1]);
             int p3=Integer.parseInt(args[2]);
@@ -28,13 +28,15 @@ class TriangleMain{
             ob1.printPattern();
             ob2.printPattern();
             ob3.printPattern();
-            System.out.print(args.length); */
-            
+          
+            /*
+
             TrianglePattern ob[]=new TrianglePattern[10];
             for(int i=0; i<args.length; i++){
                   ob[i]=new TrianglePattern(Integer.parseInt(args[i]));
                   ob[i].printPattern();
             }
+            */
 
       }
 }
