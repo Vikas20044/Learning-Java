@@ -63,9 +63,6 @@ class StringMain{
             else  System.out.println("The Consonents in a string : "+ob1.VowelConsonentCount(b));
             
 
-           
-
-
 
       }
 
