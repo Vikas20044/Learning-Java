@@ -25,7 +25,7 @@ class Even extends Thread{
 class Odd extends Thread{
 	@Override
 	public void run(){
-		System.out.println("Thread 2 : Printing odd numbers : ");
+		System.out.println("Thread 3 : Printing odd numbers : ");
 		for(int i=1; i<=100; i++){
 			if(i%2==1) System.out.print(i+" ");
 			
